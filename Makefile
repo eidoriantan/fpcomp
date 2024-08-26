@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Iinclude
+CFLAGS=-Iinclude -static
 OBJ_DIR=build
 SRC_DIR=src
 
@@ -16,4 +16,4 @@ fpcomp: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm -f $(OBJ_DIR)/*.o *~
+	rm -f $(OBJ_DIR)/*.o fpcomp*
