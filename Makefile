@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Iinclude -static
+CFLAGS=-Iinclude -lm -static
 OBJ_DIR=build
 SRC_DIR=src
 
